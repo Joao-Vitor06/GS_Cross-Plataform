@@ -69,11 +69,10 @@ export default function UpdateMission() {
         orbitalStability: parseFloat(stability),
       });
 
-      Alert.alert('Atualização Concluída', 'Os dados da missão foram transmitidos e salvos com sucesso.', [
-        { text: 'Retornar ao Painel', onPress: () => router.back() }
-      ]);
+      router.back();
+      
     } catch (e) {
-      Alert.alert('Erro Crítico', 'Não foi possível persistir as atualizações no armazenamento do dispositivo.');
+      alert('Erro Crítico: Não foi possível persistir as atualizações.');
     }
   };
 
