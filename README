@@ -1,0 +1,51 @@
+# Central de Monitoramento de Missões Espaciais
+
+*Projeto desenvolvido para a Global Solution da disciplina de Cross-Platform Application Development.*
+
+## Descrição do Projeto
+
+O aplicativo mobile simula um painel de controle tático de uma missão espacial. Desenvolvido em **React Native** e **Expo**, o sistema foca em entregar uma interface funcional, com temática *Dark Mode Sci-Fi*, voltada para o monitoramento de telemetria em tempo real e a validação estrita de dados vitais.
+
+---
+
+### Status do Desenvolvimento
+
+Abaixo está o controle das funcionalidades obrigatórias exigidas e implementadas na arquitetura do aplicativo:
+
+- [x] Dashboards com dados de sensores (Energia, O2, Comunicação e Órbita)
+- [x] Alertas automáticos para parâmetros em níveis críticos
+- [x] Formulários dinâmicos com validação de entrada de dados
+- [x] Navegação fluida em pilha utilizando Expo Router
+- [x] Persistência local de dados com AsyncStorage
+- [x] Gerenciamento de estado global com Context API
+- [ ] ~~Requisitos pendentes~~ (100% Concluído)
+
+---
+
+### Tecnologias e Bibliotecas
+
+| Tecnologia | Aplicação |
+| :--- | :---: |
+| **React Native / Expo** | Framework de desenvolvimento e compilação |
+| **TypeScript** | Tipagem estática e segurança de código |
+| **Context API** | Sincronização de estado global |
+| **AsyncStorage** | Banco de dados local |
+| **Expo Router** | Roteamento baseado em arquivos |
+| **Vector Icons** | Identidade visual e iconografia |
+
+---
+
+## Como Rodar o Projeto
+
+Para executar a central de monitoramento localmente, certifique-se de ter o ambiente Node.js configurado e siga os passos rigorosamente:
+
+1. Clone este repositório para a sua máquina local.
+2. Acesse a pasta raiz do aplicativo.
+3. Instale as dependências.
+4. Inicialize o servidor limpando o cache.
+
+```bash
+git clone [https://github.com/Joao-Vitor06/GS_Cross-Plataform.git](https://github.com/Joao-Vitor06/GS_Cross-Plataform.git)
+cd my-space-mission
+npm install
+npx expo start -c
